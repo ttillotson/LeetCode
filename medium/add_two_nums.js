@@ -1,5 +1,5 @@
-// Time: O(n)
-// Space: O(1)
+// Time: O(max(l1, l2))
+// Space: O(l1 + l2)
 var addTwoNumbers = function(l1, l2) {
     let carry = false;
     let l1List = [];
